@@ -1,4 +1,4 @@
-module github.com/bitebait/cupcakestore
+module github.com/RicardoSouza26238896/cupcakestore
 
 go 1.22
 

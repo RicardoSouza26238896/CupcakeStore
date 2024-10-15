@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"github.com/bitebait/cupcakestore/config"
+	"github.com/RicardoSouza26238896/cupcakestore/config"
 	"github.com/gofiber/fiber/v2"
 )
 

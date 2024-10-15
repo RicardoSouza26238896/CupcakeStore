@@ -1,8 +1,8 @@
 package services
 
 import (
-	"github.com/bitebait/cupcakestore/models"
-	"github.com/bitebait/cupcakestore/repositories"
+	"github.com/RicardoSouza26238896/cupcakestore/models"
+	"github.com/RicardoSouza26238896/cupcakestore/repositories"
 	"math"
 )
 

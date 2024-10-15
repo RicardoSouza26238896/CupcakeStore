@@ -3,8 +3,8 @@ package database
 import (
 	"log"
 
-	"github.com/bitebait/cupcakestore/config"
-	"github.com/bitebait/cupcakestore/models"
+	"github.com/RicardoSouza26238896/cupcakestore/config"
+	"github.com/RicardoSouza26238896/cupcakestore/models"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"

@@ -2,8 +2,8 @@ package services
 
 import (
 	"errors"
-	"github.com/bitebait/cupcakestore/models"
-	"github.com/bitebait/cupcakestore/repositories"
+	"github.com/RicardoSouza26238896/cupcakestore/models"
+	"github.com/RicardoSouza26238896/cupcakestore/repositories"
 )
 
 type StockService interface {

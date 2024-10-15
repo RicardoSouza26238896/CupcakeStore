@@ -6,7 +6,7 @@ Projeto Integrador Transdisciplinar em Engenharia de Software II - UNICID - Cruz
 
 Clone o repositório:
 ~~~sh
-git clone https://github.com/bitebait/cupcakestore.git
+git clone https://github.com/RicardoSouza26238896/cupcakestore.git
 ~~~
 
 Navegue até a pasta do projeto:
@@ -61,13 +61,13 @@ A estrutura do projeto é organizada da seguinte forma:
 
 Este projeto foi desenvolvido por William Schwaab como parte do Projeto Integrador Transdisciplinar em Engenharia de Software II - UNICID - Cruzeiro Sul Virtual.
 
-Para mais informações, consulte a [documentação](https://github.com/bitebait/cupcakestore/tree/main/docs).
+Para mais informações, consulte a [documentação](https://github.com/RicardoSouza26238896/cupcakestore/tree/main/docs).
 
 
 ## Imagens
 
 - **Loja:**
-  ![Loja](https://github.com/bitebait/cupcakestore/blob/main/docs/store.png)
+  ![Loja](https://github.com/RicardoSouza26238896/cupcakestore/blob/main/docs/store.png)
 
 - **Painel de Admin:**
-  ![Painel de Admin](https://github.com/bitebait/cupcakestore/blob/main/docs/dashboard.png)
+  ![Painel de Admin](https://github.com/RicardoSouza26238896/cupcakestore/blob/main/docs/dashboard.png)

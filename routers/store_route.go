@@ -1,10 +1,10 @@
 package routers
 
 import (
-	"github.com/bitebait/cupcakestore/controllers"
-	"github.com/bitebait/cupcakestore/database"
-	"github.com/bitebait/cupcakestore/repositories"
-	"github.com/bitebait/cupcakestore/services"
+	"github.com/RicardoSouza26238896/cupcakestore/controllers"
+	"github.com/RicardoSouza26238896/cupcakestore/database"
+	"github.com/RicardoSouza26238896/cupcakestore/repositories"
+	"github.com/RicardoSouza26238896/cupcakestore/services"
 	"github.com/gofiber/fiber/v2"
 )
 

@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/bitebait/cupcakestore/utils"
+	"github.com/RicardoSouza26238896/cupcakestore/utils"
 	"github.com/go-playground/validator/v10"
 	"golang.org/x/crypto/bcrypt"
 	"gorm.io/gorm"

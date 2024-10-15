@@ -1,7 +1,7 @@
 package database
 
 import (
-	"github.com/bitebait/cupcakestore/models"
+	"github.com/RicardoSouza26238896/cupcakestore/models"
 	"gorm.io/gorm"
 	"log"
 )

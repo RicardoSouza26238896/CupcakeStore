@@ -1,9 +1,9 @@
 package controllers
 
 import (
-	"github.com/bitebait/cupcakestore/services"
-	"github.com/bitebait/cupcakestore/utils"
-	"github.com/bitebait/cupcakestore/views"
+	"github.com/RicardoSouza26238896/cupcakestore/services"
+	"github.com/RicardoSouza26238896/cupcakestore/utils"
+	"github.com/RicardoSouza26238896/cupcakestore/views"
 	"github.com/gofiber/fiber/v2"
 	"strconv"
 )
