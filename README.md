@@ -26,7 +26,7 @@ go run .
 
 ### Informações Adicionais
 
-- **Link da Solução em Funcionamento:** [Cupcake Store](https://cupcakestore.schwaab.me:2053/store)
+- **Link da Solução em Funcionamento:** [Cupcake Store](https://cupcakestore.RicardoSouza26238896:2053/store)
 - **Usuário DEMO ADMIN**: `admin@admin.com` / `admin@admin.com`
 - **Linguagem Back-end**: Golang
 - **Banco de Dados**: Sqlite3 (usando gorm – Golang ORM)
