@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/RicardoSouza26238896/cupcakestore/bootstrap"
-	"github.com/RicardoSouza26238896/cupcakestore/config"
+	"ricardosouza26238896.github.io/cupcakestore/bootstrap"
+	"ricardosouza26238896.github.io/cupcakestore/config"
 )
 
 func main() {
