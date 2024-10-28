@@ -21,7 +21,7 @@ func main() {
 		return
 	}
 
-	certFile := "/etc/letsencrypt/live/cupcakestore.schwaab.me/fullchain.pem"
-	keyFile := "/etc/letsencrypt/live/cupcakestore.schwaab.me/privkey.pem"
+	certFile := "/etc/letsencrypt/live/ricardosouza26238896.github.io/fullchain.pem"
+	keyFile := "/etc/letsencrypt/live/ricardosouza26238896.github.io/privkey.pem"
 	log.Fatal(app.ListenTLS(addr, certFile, keyFile))
 }
