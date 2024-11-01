@@ -59,7 +59,7 @@ A estrutura do projeto é organizada da seguinte forma:
 
 ### Autoria
 
-Este projeto foi desenvolvido por William Schwaab como parte do Projeto Integrador Transdisciplinar em Engenharia de Software II - UNICID - Cruzeiro Sul Virtual.
+Este projeto foi desenvolvido por Ricardo Alexandre de Souza RGB 26238896 como parte do Projeto Integrador Transdisciplinar em Engenharia de Software II - UNIFRAN- Cruzeiro Sul.
 
 Para mais informações, consulte a [documentação](https://github.com/RicardoSouza26238896/cupcakestore/tree/main/docs).
 
