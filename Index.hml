@@ -1,12 +1,379 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Página do GitHub</title>
-</head>
-<body>
-    <h1>Bem-vindo à minha página!</h1>
-    <p>Este é o meu site hospedado no GitHub Pages.</p>
-</body>
+ <head>
+  <script>
+   window.smartlook||function(e){var n=smartlook=function(){n.api.push(arguments)},s=e.getElementsByTagName("head")[0],t=e.createElement("script");n.api=new Array,t.async=!0,t.type="text/javascript",t.charset="utf-8",t.src="https://web-sdk.smartlook.com/recorder.js",s.appendChild(t)}(document),smartlook("init","ca5dad74e4686bf7fe9575ca78620f1f7f703c71",{region:"eu"})
+  </script>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   CupCake Store | Loja
+  </title>
+  <style>
+   @font-face{font-family:source sans pro;font-style:italic;font-weight:400;src:url(https://fonts.gstatic.com/s/sourcesanspro/v22/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDc.ttf)format("truetype")}@font-face{font-family:source sans pro;font-style:normal;font-weight:300;src:url(https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdr.ttf)format("truetype")}@font-face{font-family:source sans pro;font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7g.ttf)format("truetype")}@font-face{font-family:source sans pro;font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdr.ttf)format("truetype")}
+  </style>
+  <link href="css/all.min.css" rel="stylesheet"/>
+  <link href="css/adminlte.min.css" rel="stylesheet"/>
+  <script src="js/jquery-3.5.1.min.js">
+  </script>
+ </head>
+ <body class="hold-transition layout-top-nav" style="background-color:#f4f6f9!important">
+  <div class="wrapper">
+   <nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
+    <div class="container">
+     <a class="navbar-brand" href="/">
+      <img alt="AdminLTE Logo" class="brand-image img-circle" src="images/logo.png" style="opacity:.8"/>
+      <span class="brand-text font-weight-light">
+       CupcakeStore
+      </span>
+     </a>
+     <button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler order-1" data-target="#navbarCollapse" data-toggle="collapse" type="button">
+      <span class="navbar-toggler-icon">
+      </span>
+     </button>
+     <div class="collapse navbar-collapse order-3" id="navbarCollapse">
+      <ul class="navbar-nav">
+       <li class="nav-item d-flex">
+        <a class="nav-link" href="/">
+         <i class="fas fa-store-alt">
+         </i>
+         Vitrine da Loja
+        </a>
+       </li>
+       <li class="nav-item d-flex">
+        <a class="nav-link" data-widget="navbar-search" href="/cart" role="button">
+         <i class="fas fa-shopping-cart">
+         </i>
+         Meu Carrinho (
+         <span id="cart-count">
+          0
+         </span>
+         )
+        </a>
+       </li>
+       <li class="nav-item d-flex">
+        <a class="nav-link" data-widget="navbar-search" href="/orders" role="button">
+         <i class="fas fa-file-invoice">
+         </i>
+         Meus Pedidos
+        </a>
+       </li>
+       <li class="nav-item d-flex align-items-center">
+        <a class="nav-link" data-slide="true" data-widget="control-sidebar" href="/auth/login" role="button">
+         <i class="fas fa-user">
+         </i>
+         Fazer Login/Cadastro
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+   </nav>
+   <div class="content-wrapper">
+    <div class="content-header">
+     <div class="container">
+      <div class="row mb-2">
+       <div class="col-sm-6">
+        <h1 class="m-0">
+         Vitrine da Loja
+        </h1>
+       </div>
+       <div class="col-sm-6">
+        <ol class="breadcrumb float-sm-right">
+         <li class="breadcrumb-item">
+          <a href="/">
+           Home
+          </a>
+         </li>
+         <li class="breadcrumb-item active">
+          Vitrine da Loja
+         </li>
+        </ol>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="content">
+     <div class="container">
+      <div class="row row-eq-height">
+       <div class="col-md-3">
+        <div class="card card-produto text-center">
+         <img alt="Cupcake De Cenoura Com Cobertura De Creme" class="card-img-top" src="images/RFHF06kD4bjkVGndyMAfAJ.jpg"/>
+         <div class="card-body d-flex flex-column">
+          <a class="card-title font-weight-bold text-dark" href="/products/details/10">
+           <h5>
+            Cupcake De Cenoura Com Cobertura De C...
+           </h5>
+          </a>
+          <p class="card-text text-muted">
+           <small>
+            Um cupcake saboroso e úmido, repleto de cenoura fresca ralada e es...
+           </small>
+          </p>
+          <div class="mt-auto">
+           <p class="card-text font-weight-bold fontsize-20">
+            R$ 10.00
+            <small class="text-muted">
+             /uni
+            </small>
+           </p>
+           <div class="input-group mb-3">
+            <button class="btn btn-outline-secondary" id="10-decrement" onclick='decrementQuantity("10")' type="button">
+             -
+            </button>
+            <input aria-describedby="10-decrement 10-increment" aria-label="Example text with button addon" class="form-control text-center" id="10-quantity" inputmode="numeric" min="1" pattern="[0-9]*" type="number" value="1"/>
+            <button class="btn btn-outline-secondary" id="10-increment" onclick='incrementQuantity("10")' type="button">
+             +
+            </button>
+           </div>
+           <a class="adicionar-ao-carrinho" data-id="10" href="#">
+            Adicionar ao
+Carrinho
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="col-md-3">
+        <div class="card card-produto text-center">
+         <img alt="Cupcake Gourmet Com Cobertura De Chocolate E Café" class="card-img-top" src="images/CbsWEkBfuLl6gf7H30VGWQ.png"/>
+         <div class="card-body d-flex flex-column">
+          <a class="card-title font-weight-bold text-dark" href="/products/details/5">
+           <h5>
+            Cupcake Gourmet Com Cobertura De Choc...
+           </h5>
+          </a>
+          <p class="card-text text-muted">
+           <small>
+            Este delicioso cupcake gourmet combina o rico sabor do chocolate co...
+           </small>
+          </p>
+          <div class="mt-auto">
+           <p class="card-text font-weight-bold fontsize-20">
+            R$ 13.00
+            <small class="text-muted">
+             /uni
+            </small>
+           </p>
+           <div class="input-group mb-3">
+            <button class="btn btn-outline-secondary" id="5-decrement" onclick='decrementQuantity("5")' type="button">
+             -
+            </button>
+            <input aria-describedby="5-decrement 5-increment" aria-label="Example text with button addon" class="form-control text-center" id="5-quantity" inputmode="numeric" min="1" pattern="[0-9]*" type="number" value="1"/>
+            <button class="btn btn-outline-secondary" id="5-increment" onclick='incrementQuantity("5")' type="button">
+             +
+            </button>
+           </div>
+           <a class="adicionar-ao-carrinho" data-id="5" href="#">
+            Adicionar ao
+Carrinho
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="col-md-3">
+        <div class="card card-produto text-center">
+         <img alt="Cupcake Com Cobertura De Crème Brûlée" class="card-img-top" src="images/pMZEt7hFW7H5qPIynanA7J.jpg"/>
+         <div class="card-body d-flex flex-column">
+          <a class="card-title font-weight-bold text-dark" href="/products/details/4">
+           <h5>
+            Cupcake Com Cobertura De Crème Brûlée
+           </h5>
+          </a>
+          <p class="card-text text-muted">
+           <small>
+            Um cupcake delicado e sofisticado, com uma cobertura caramelizada e...
+           </small>
+          </p>
+          <div class="mt-auto">
+           <p class="card-text font-weight-bold fontsize-20">
+            R$ 15.00
+            <small class="text-muted">
+             /uni
+            </small>
+           </p>
+           <div class="input-group mb-3">
+            <button class="btn btn-outline-secondary" id="4-decrement" onclick='decrementQuantity("4")' type="button">
+             -
+            </button>
+            <input aria-describedby="4-decrement 4-increment" aria-label="Example text with button addon" class="form-control text-center" id="4-quantity" inputmode="numeric" min="1" pattern="[0-9]*" type="number" value="1"/>
+            <button class="btn btn-outline-secondary" id="4-increment" onclick='incrementQuantity("4")' type="button">
+             +
+            </button>
+           </div>
+           <a class="adicionar-ao-carrinho" data-id="4" href="#">
+            Adicionar ao
+Carrinho
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="col-md-3">
+        <div class="card card-produto text-center">
+         <img alt="Cupcake De Nozes Com Cobertura De Creme" class="card-img-top" src="images/hLuACKy4uApHeRqVGbPeVA.jpg"/>
+         <div class="card-body d-flex flex-column">
+          <a class="card-title font-weight-bold text-dark" href="/products/details/3">
+           <h5>
+            Cupcake De Nozes Com Cobertura De Creme
+           </h5>
+          </a>
+          <p class="card-text text-muted">
+           <small>
+            Um cupcake deliciosamente rico e texturizado, com o sabor marcante ...
+           </small>
+          </p>
+          <div class="mt-auto">
+           <p class="card-text font-weight-bold fontsize-20">
+            R$ 14.50
+            <small class="text-muted">
+             /uni
+            </small>
+           </p>
+           <div class="input-group mb-3">
+            <button class="btn btn-outline-secondary" id="3-decrement" onclick='decrementQuantity("3")' type="button">
+             -
+            </button>
+            <input aria-describedby="3-decrement 3-increment" aria-label="Example text with button addon" class="form-control text-center" id="3-quantity" inputmode="numeric" min="1" pattern="[0-9]*" type="number" value="1"/>
+            <button class="btn btn-outline-secondary" id="3-increment" onclick='incrementQuantity("3")' type="button">
+             +
+            </button>
+           </div>
+           <a class="adicionar-ao-carrinho" data-id="3" href="#">
+            Adicionar ao
+Carrinho
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="col-md-3">
+        <div class="card card-produto text-center">
+         <img alt="Cupcake De Baunilha Com Cobertura De Morango" class="card-img-top" src="images/kPOaeZg3fUp7djOcIzzgj9.jpg"/>
+         <div class="card-body d-flex flex-column">
+          <a class="card-title font-weight-bold text-dark" href="/products/details/2">
+           <h5>
+            Cupcake De Baunilha Com Cobertura De ...
+           </h5>
+          </a>
+          <p class="card-text text-muted">
+           <small>
+            Um cupcake delicado e saboroso, com o suave aroma da baunilha e uma...
+           </small>
+          </p>
+          <div class="mt-auto">
+           <p class="card-text font-weight-bold fontsize-20">
+            R$ 8.00
+            <small class="text-muted">
+             /uni
+            </small>
+           </p>
+           <div class="input-group mb-3">
+            <button class="btn btn-outline-secondary" id="2-decrement" onclick='decrementQuantity("2")' type="button">
+             -
+            </button>
+            <input aria-describedby="2-decrement 2-increment" aria-label="Example text with button addon" class="form-control text-center" id="2-quantity" inputmode="numeric" min="1" pattern="[0-9]*" type="number" value="1"/>
+            <button class="btn btn-outline-secondary" id="2-increment" onclick='incrementQuantity("2")' type="button">
+             +
+            </button>
+           </div>
+           <a class="adicionar-ao-carrinho" data-id="2" href="#">
+            Adicionar ao
+Carrinho
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="col-md-3">
+        <div class="card card-produto text-center">
+         <img alt="Cupcake De Chocolate Com Cobertura De Blueberry" class="card-img-top" src="images/Ny0v9g8EYnqNGna2yGfJAb.jpg"/>
+         <div class="card-body d-flex flex-column">
+          <a class="card-title font-weight-bold text-dark" href="/products/details/1">
+           <h5>
+            Cupcake De Chocolate Com Cobertura De...
+           </h5>
+          </a>
+          <p class="card-text text-muted">
+           <small>
+            Uma deliciosa combinação entre o sabor intenso do chocolate e o t...
+           </small>
+          </p>
+          <div class="mt-auto">
+           <p class="card-text font-weight-bold fontsize-20">
+            R$ 12.00
+            <small class="text-muted">
+             /uni
+            </small>
+           </p>
+           <div class="input-group mb-3">
+            <button class="btn btn-outline-secondary" id="1-decrement" onclick='decrementQuantity("1")' type="button">
+             -
+            </button>
+            <input aria-describedby="1-decrement 1-increment" aria-label="Example text with button addon" class="form-control text-center" id="1-quantity" inputmode="numeric" min="1" pattern="[0-9]*" type="number" value="1"/>
+            <button class="btn btn-outline-secondary" id="1-increment" onclick='incrementQuantity("1")' type="button">
+             +
+            </button>
+           </div>
+           <a class="adicionar-ao-carrinho" data-id="1" href="#">
+            Adicionar ao
+Carrinho
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="mb-5">
+       <div class="card-footer clearfix" style="background-color:initial!important">
+        <span>
+         Página 1 de 1 - Mostrando 8 resultado(s) por página de um total de 6.
+        </span>
+        <ul class="pagination pagination-sm m-0 float-right">
+         <li class="page-item disabled">
+          <a class="page-link" href="#">
+           «
+          </a>
+         </li>
+         <li class="page-item active">
+          <a class="page-link" href="?page=1&amp;limit=8">
+           <strong>
+            1
+           </strong>
+          </a>
+         </li>
+         <li class="page-item disabled">
+          <a class="page-link" href="#">
+           »
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+    </div>
+    <script>
+     function adicionarAoCarrinho(e){const o=e.dataset.id,i=document.getElementById(o+"-quantity"),a=i.value,t=document.createElement("form");t.action="/cart",t.method="post";const n=document.createElement("input");n.type="hidden",n.name="id",n.value=o;const s=document.createElement("input");s.type="hidden",s.name="quantity",s.value=a,t.appendChild(n),t.appendChild(s),document.body.appendChild(t),t.submit()}const links=document.querySelectorAll(".adicionar-ao-carrinho");links.forEach(function(e){e.addEventListener("click",function(t){t.preventDefault(),adicionarAoCarrinho(e)})});function incrementQuantity(e){const t=document.getElementById(e+"-quantity"),n=parseInt(t.value,10);isNaN(n)||(t.value=n+1)}function decrementQuantity(e){const n=document.getElementById(e+"-quantity"),t=parseInt(n.value,10);!isNaN(t)&&t>1&&(n.value=t-1)}
+    </script>
+   </div>
+   <aside class="control-sidebar control-sidebar-dark">
+   </aside>
+   <footer class="main-footer">
+    <div class="float-right d-none d-sm-inline">
+     2024
+    </div>
+    <strong>
+     CupCakeStore
+    </strong>
+   </footer>
+  </div>
+  <script src="js/jquery.min.js">
+  </script>
+  <script src="js/bootstrap.bundle.min.js">
+  </script>
+  <script>
+   (function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8dd6d3574b5b0ca0',t:'MTczMDc0NjYwMi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();
+  </script>
+ </body>
 </html>
